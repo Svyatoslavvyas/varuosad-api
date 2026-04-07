@@ -1,2 +1,8 @@
 1.py -m pip install -r requirements.txt
 2.py app.py
+....
+Basic: http://localhost:3300/spare-parts?page=1
+Filter by name: http://localhost:3300/spare-parts?name=polt&page=1
+Filter by serial: http://localhost:3300/spare-parts?sn=00002356517
+Sort by price (descending): http://localhost:3300/spare-parts?sort=-price&page=1
+Search: http://localhost:3300/spare-parts/search/00002356517?page=1
