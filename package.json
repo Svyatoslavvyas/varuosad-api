@@ -1,0 +1,13 @@
+{
+  "name": "spare-parts-api",
+  "version": "1.0.0",
+  "description": "HTTP API for car spare parts",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "csv-parser": "^3.0.0"
+  }
+}
